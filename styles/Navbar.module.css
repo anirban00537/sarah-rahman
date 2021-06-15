@@ -1,0 +1,112 @@
+.leftnav {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  align-items: center;
+  height: 100px;
+}
+
+.personDP {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.dropdowmSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchSection {
+  margin: 0px;
+  padding: 0px;
+}
+
+.cstmSrch {
+  margin-top: 12px;
+  width: 60% !important;
+}
+
+/*  */
+
+.sidebar {
+  width: 109%;
+}
+
+.navbarCstm {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.admin-container {
+  width: 100%;
+}
+
+ul.side-menu {
+  margin-top: 52px;
+}
+
+ul.side-menu li a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+ul.side-menu li {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1;
+  align-items: center;
+  padding: 15px 30px;
+  color: white;
+  border-radius: 0px;
+}
+
+ul.side-menu li.active {
+  background-color: #179bd7;
+  color: white;
+  cursor: pointer;
+}
+
+ul.side-menu li.active a {
+  color: white;
+}
+
+/* Dark mood styles */
+
+.dark ul.side-menu li a {
+  color: white;
+}
+
+.dark ul.side-menu li.active a {
+  color: black;
+}
+
+/* *************************** */
+
+.dropdown-collapse {
+  display: none;
+}
+
+.dropdown-content {
+  animation: dropdown 0.5s;
+  display: block;
+  height: fit-content;
+  padding: 0px 0px 0px 20px;
+  width: 100%;
+  z-index: 1;
+}
+
+@keyframes dropdown {
+  from {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  to {
+    opacity: 1;
+    margin: 0;
+  }
+}
