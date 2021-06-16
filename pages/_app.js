@@ -2,7 +2,8 @@ import "../styles/globals.css";
 import { useRouter } from "next/router";
 import { ChakraProvider } from "@chakra-ui/react";
 import Layout from "../components/Admin/Layout";
-
+import store from "../app/store";
+import { Provider } from "react-redux";
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   var pathUrl = router.pathname.split("/");
@@ -11,7 +12,9 @@ function MyApp({ Component, pageProps }) {
   return status ? (
     <ChakraProvider>
       <Layout>
-        <Component {...pageProps} />
+        <Provider store={store}>
+          <Component {...pageProps} />
+        </Provider>
       </Layout>
     </ChakraProvider>
   ) : (
