@@ -95,8 +95,6 @@ const OrderDetails = () => {
                                 <Text fontSize="2xl" fontWeight="bold">
                                     Delivered to a different
                                 </Text>
-
-                                <Badge colorScheme="green"> #ajkasndjand</Badge>
                                 <Text fontSize="medium" pt="7px">
                                     Tahsin Tamanna
                                 </Text>
