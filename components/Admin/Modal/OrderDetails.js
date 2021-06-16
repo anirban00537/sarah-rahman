@@ -93,7 +93,7 @@ const OrderDetails = () => {
                                 justifyContent="flex-start"
                             >
                                 <Text fontSize="2xl" fontWeight="bold">
-                                    Customer Details
+                                    Delivered to a different
                                 </Text>
 
                                 <Badge colorScheme="green"> #ajkasndjand</Badge>
