@@ -39,8 +39,8 @@ const OrderDetails = () => {
                             justifyContent='space-between'
                             alignItems='center'
                         >
-                            <Text color="red.300" fontSize="3xl">#adase</Text>
-                            <Text marginRight="25px">Wednesday,5th April 2021 ,6:30 PM</Text>
+                            <Text paddingTop="5" color="red.300" fontSize="3xl">#adase</Text>
+                            <Text paddingTop="5">Wednesday,5th April 2021 ,6:30 PM</Text>
                         </Flex>
                     </ModalHeader>
                     <ModalCloseButton />
