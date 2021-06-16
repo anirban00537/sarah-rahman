@@ -13,8 +13,8 @@ import {
     TableCaption,
 } from "@chakra-ui/react";
 import Head from 'next/head'
-import AddProduct from "../../../componant/Modal/AddProduct";
-import ProductDetails from "../../../componant/Modal/ProductDetails"
+import AddProduct from "../../components/Admin/Modal/AddProduct";
+import ProductDetails from "../../components/Admin/Modal/ProductDetails"
 
 const List = () => {
     return (
